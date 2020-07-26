@@ -41,7 +41,7 @@ class App extends Component {
           </Navbar>
         </div>
         <div style={{backgroundColor:"#AFEEEE"}}>
-          <Carousel>
+          <Carousel fluid>
             <Carousel.Item>
               <Image className="" src={image1} height="400px" alt="First slide"></Image>
               {/* <Carousel.Caption>
@@ -68,7 +68,7 @@ class App extends Component {
         <div className="mt-5">
           <Container>
             <CardDeck>
-              <Card style={{ width: '18rem' }}>
+              <Card style={{ width: '' }}>
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -80,7 +80,7 @@ class App extends Component {
                   <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
+              <Card style={{ width: '' }}>
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -92,7 +92,7 @@ class App extends Component {
                   <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
               </Card>
-              <Card style={{ width: '18rem' }}>
+              <Card style={{ width: '' }}>
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -113,7 +113,7 @@ class App extends Component {
           </div>
           <div className="mt-5">
             <Container>
-              <Card style={{ width: '30rem', margin:'auto'}}>
+              <Card style={{ width: '50%', margin:'auto'}}>
                 <Card.Img variant="top" src={image5} />
                 <Card.Body>
                   <Card.Text>
@@ -125,137 +125,109 @@ class App extends Component {
             </Container>
           </div>
         </div>
-        <div className="mt-5" style={{width:"50rem", margin:"auto"}}>
-          <div className="mt-5">
-            <h1> OTHER STUFF </h1>
-          </div>
-          <div>
-            <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
-              <Card.Body>
-                <Row>
-                  <Col>
-                    <Image className="" src={image4}  alt="Second slide"></Image>
-                  </Col>
-                  <Col>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-            <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
-              <Card.Body>
-                <Row>
-                  <Col>
-                    <Image className="" src={image6}  alt="Second slide"></Image>
-                  </Col>
-                  <Col>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-            <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
-              <Card.Body>
-                <Row>
-                  <Col>
-                    <Image className="" src={image7}  alt="Second slide"></Image>
-                  </Col>
-                  <Col>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-            <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
-              <Card.Body>
-                <Row>
-                  <Col>
-                    <Image className="" src={image8}  alt="Second slide"></Image>
-                  </Col>
-                  <Col>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-            <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
-              <Card.Body>
-                <Row>
-                  <Col>
-                    <Image className="" src={image9}  alt="Second slide"></Image>
-                  </Col>
-                  <Col>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </div>
-          {/* <div>
-            <Container style={{backgroundColor:'#f7f7f7', position:'absolute', marginTop:'2124px', marginLeft:'0px', height:'380px', width:'1152px'}} fluid>
-              <p style={{position:'absolute', marginTop:'79px', marginLeft:'139px', fontWeight:'bold', color:'#FB1242', fontSize:'24px'}}>#AboutTime</p>
-              <p style={{position:'absolute', marginTop:'134px', marginLeft:'139px', fontWeight:'normal', color:'#4F4F4F', fontSize:'18px', width:'466px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus spien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
-              <div style={{position:'absolute', marginLeft:'620px', marginTop:'84px', width:'180px'}}>
-                <ul style={{listStyle:'none', fontWeight:'600', color:'#828282', fontSize:'14px'}}>
-                  <li style={{color:'#333333', fontSize:'18px'}}>Our Restaurants</li>
-                  <li>Chicken Republic</li>
-                  <li>Mr Biggs</li>
-                  <li>KFC Chicken</li>
-                  <li>Magrellos</li>
-                  <li>Bernadines</li>
-                </ul>
-              </div>
-              <div style={{position:'absolute', marginLeft:'810px', marginTop:'84px', width:'240px'}}>
-                <ul style={{listStyle:'none', fontWeight:'600', color:'#828282', fontSize:'14px'}}>
-                  <li style={{color:'#333333', fontSize:'18px'}}>Get to know our Team</li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Akana David</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Charles Cookey</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Ikechukwu Imala</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Dwight Ojukwu</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Lucas Chekwa</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Onyeukwu Samuel</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Eniola Olaiwole</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Yisau Sammad</Link></li>
-                  <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Okemati Lanre</Link></li>
-                </ul>
-              </div>
-            </Container>
-          </div> */}
+        <div className="mt-5" style={{width:"", margin:"auto"}}>
+          <Container>
+            <div className="mt-5">
+              <h1> OTHER STUFF </h1>
+            </div>
+            <div>
+              <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
+                <Card.Body>
+                  <Row>
+                    <Col>
+                      <Image className="" src={image4}  alt="Second slide"></Image>
+                    </Col>
+                    <Col>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Card.Link href="#">Card Link</Card.Link>
+                      <Card.Link href="#">Another Link</Card.Link>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+              <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
+                <Card.Body>
+                  <Row>
+                    <Col>
+                      <Image className="" src={image6}  alt="Second slide"></Image>
+                    </Col>
+                    <Col>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Card.Link href="#">Card Link</Card.Link>
+                      <Card.Link href="#">Another Link</Card.Link>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+              <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
+                <Card.Body>
+                  <Row>
+                    <Col>
+                      <Image className="" src={image7}  alt="Second slide"></Image>
+                    </Col>
+                    <Col>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Card.Link href="#">Card Link</Card.Link>
+                      <Card.Link href="#">Another Link</Card.Link>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+              <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
+                <Card.Body>
+                  <Row>
+                    <Col>
+                      <Image className="" src={image8}  alt="Second slide"></Image>
+                    </Col>
+                    <Col>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Card.Link href="#">Card Link</Card.Link>
+                      <Card.Link href="#">Another Link</Card.Link>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+              <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
+                <Card.Body>
+                  <Row>
+                    <Col>
+                      <Image className="" src={image9}  alt="Second slide"></Image>
+                    </Col>
+                    <Col>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Card.Link href="#">Card Link</Card.Link>
+                      <Card.Link href="#">Another Link</Card.Link>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+            </div>
+          </Container>
         </div>
       </div>
     );
