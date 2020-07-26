@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PharmacistBlog/static/css/main.5f361e03.chunk.css",
-    "main.js": "/PharmacistBlog/static/js/main.0b56a701.chunk.js",
-    "main.js.map": "/PharmacistBlog/static/js/main.0b56a701.chunk.js.map",
+    "main.js": "/PharmacistBlog/static/js/main.622b6a8b.chunk.js",
+    "main.js.map": "/PharmacistBlog/static/js/main.622b6a8b.chunk.js.map",
     "runtime-main.js": "/PharmacistBlog/static/js/runtime-main.4e070240.js",
     "runtime-main.js.map": "/PharmacistBlog/static/js/runtime-main.4e070240.js.map",
     "static/css/2.af3c1da9.chunk.css": "/PharmacistBlog/static/css/2.af3c1da9.chunk.css",
     "static/js/2.414467d1.chunk.js": "/PharmacistBlog/static/js/2.414467d1.chunk.js",
     "static/js/2.414467d1.chunk.js.map": "/PharmacistBlog/static/js/2.414467d1.chunk.js.map",
     "index.html": "/PharmacistBlog/index.html",
-    "precache-manifest.6d5a6d8c9e663bcc2f2823600b887885.js": "/PharmacistBlog/precache-manifest.6d5a6d8c9e663bcc2f2823600b887885.js",
+    "precache-manifest.cf4c19ec13e0232749b2d27663ed0402.js": "/PharmacistBlog/precache-manifest.cf4c19ec13e0232749b2d27663ed0402.js",
     "service-worker.js": "/PharmacistBlog/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/PharmacistBlog/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/PharmacistBlog/static/css/main.5f361e03.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.414467d1.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0b56a701.chunk.js"
+    "static/js/main.622b6a8b.chunk.js"
   ]
 }

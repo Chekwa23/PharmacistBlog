@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db9827b2b693b6f05025ca265276fc50",
+    "revision": "3652fd0ab2ad75dcd6b8a8d934e43de2",
     "url": "/PharmacistBlog/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PharmacistBlog/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "117be870055bd484002e",
+    "revision": "3fe75c8e6a0142104886",
     "url": "/PharmacistBlog/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PharmacistBlog/static/js/2.414467d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "117be870055bd484002e",
-    "url": "/PharmacistBlog/static/js/main.0b56a701.chunk.js"
+    "revision": "3fe75c8e6a0142104886",
+    "url": "/PharmacistBlog/static/js/main.622b6a8b.chunk.js"
   },
   {
     "revision": "efecbab79ebffd425a01",
