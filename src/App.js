@@ -11,12 +11,13 @@ import image6 from './images/image6.jpg';
 import image7 from './images/image7.jpg';
 import image8 from './images/image8.png';
 import image9 from './images/image9.jpg';
+import background from './images/background.jpg';
 import './App.css';
 
 class App extends Component {
   render(){
     return (
-      <div className="App">
+      <div className="App" style={{backgroundImage:"url("+background+")", backgroundRepeat:"repeat", height:""}}>
         <div>
           <Navbar  expand="lg" style={{backgroundColor:"#00CED1", height:"5rem"}}>
             <Navbar.Brand href="#home">Pharmacist Blog</Navbar.Brand>
@@ -41,7 +42,7 @@ class App extends Component {
           </Navbar>
         </div>
         <div style={{backgroundColor:"#AFEEEE"}}>
-          <Carousel fluid>
+          <Carousel>
             <Carousel.Item>
               <Image className="" src={image1} height="400px" alt="First slide"></Image>
               {/* <Carousel.Caption>
@@ -107,8 +108,10 @@ class App extends Component {
             </CardDeck>
           </Container>
         </div>
-        <div>
-          <div className="mt-5">
+        <div className="mt-5">
+          <hr style={{border:'3px solid #AFEEEE', marginBottom:'0em'}}></hr>
+          <hr style={{border:'1px solid #AFEEEE', marginTop:'3px'}}></hr>
+          <div style={{backgroundColor:"#AFEEEE"}}>
             <h1> CURENT STUFF </h1>
           </div>
           <div className="mt-5">
@@ -126,10 +129,12 @@ class App extends Component {
           </div>
         </div>
         <div className="mt-5" style={{width:"", margin:"auto"}}>
+          <hr style={{border:'3px solid #AFEEEE', marginBottom:'0em'}}></hr>
+          <hr style={{border:'1px solid #AFEEEE', marginTop:'3px'}}></hr>
+          <div className="" style={{backgroundColor:"#AFEEEE"}}>
+            <h1> OTHER STUFF </h1>
+          </div>
           <Container>
-            <div className="mt-5">
-              <h1> OTHER STUFF </h1>
-            </div>
             <div>
               <Card className="mt-3" style={{backgroundColor:"#00CED1"}}>
                 <Card.Body>
@@ -227,6 +232,30 @@ class App extends Component {
                 </Card.Body>
               </Card>
             </div>
+          </Container>
+        </div>
+        <hr style={{border:'3px solid #AFEEEE', marginBottom:'0em'}}></hr>
+        <hr style={{border:'1px solid #AFEEEE', marginTop:'3px', marginBottom:'0em'}}></hr>
+        <div className="mt-4" style={{backgroundColor:"#AFEEEE", margin:'auto', height:'300px'}}>
+          <Container className="pt-5" fluid>
+            <Row>
+              <Col>
+                <h1>#AboutTime</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus spien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
+              </Col>
+              <Col>
+                <div>
+                  <ul style={{listStyle:'none'}}>
+                    <li style={{color:'#333333', fontSize:'18px'}}>Our Restaurants</li>
+                    <li>Chicken Republic</li>
+                    <li>Mr Biggs</li>
+                    <li>KFC Chicken</li>
+                    <li>Magrellos</li>
+                    <li>Bernadines</li>
+                  </ul>
+                </div>
+              </Col>
+            </Row>
           </Container>
         </div>
       </div>
