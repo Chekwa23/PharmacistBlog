@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3652fd0ab2ad75dcd6b8a8d934e43de2",
+    "revision": "f14bafc0f54de1c274ca894ed23072c0",
     "url": "/PharmacistBlog/index.html"
   },
   {
-    "revision": "4a9ce317c5a5e55b95e3",
+    "revision": "c06cc9fa8865f229f337",
     "url": "/PharmacistBlog/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "3fe75c8e6a0142104886",
+    "revision": "7a84668daa2b99c4cb0b",
     "url": "/PharmacistBlog/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "4a9ce317c5a5e55b95e3",
-    "url": "/PharmacistBlog/static/js/2.414467d1.chunk.js"
+    "revision": "c06cc9fa8865f229f337",
+    "url": "/PharmacistBlog/static/js/2.cd613378.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/PharmacistBlog/static/js/2.414467d1.chunk.js.LICENSE.txt"
+    "url": "/PharmacistBlog/static/js/2.cd613378.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3fe75c8e6a0142104886",
-    "url": "/PharmacistBlog/static/js/main.622b6a8b.chunk.js"
+    "revision": "7a84668daa2b99c4cb0b",
+    "url": "/PharmacistBlog/static/js/main.6d2df77c.chunk.js"
   },
   {
     "revision": "efecbab79ebffd425a01",
     "url": "/PharmacistBlog/static/js/runtime-main.4e070240.js"
+  },
+  {
+    "revision": "a30d86af67e6676db2f95eab4f494c86",
+    "url": "/PharmacistBlog/static/media/background.a30d86af.jpg"
   },
   {
     "revision": "e9378484412fab9105cc03fcd5664d4c",
